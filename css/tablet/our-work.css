@@ -168,14 +168,14 @@ div.our-work{
     div.our-work>div.inside-work>div.content>div.cards>div.card-1:nth-last-of-type(1):hover div.cover{
         display: flex;
         transition: 300ms;
-        top: 412px;
+        top: 50%;
         }
     div.our-work>div.inside-work>div.content>div.cards>div.card-1>img{
         width: 80%;
     }
     div.our-work>div.inside-work>div.content>div.cards>div.card-1:nth-last-of-type(1)>div.cover{
         width: 80%;
-        height: 48%;
+        height: 50%;
         background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
         position: absolute;
         top: 0;
