@@ -1,0 +1,102 @@
+div.features {
+    width: 100%;
+    height: auto;
+    background: var(--Grey, #F4F6FC);
+}
+
+div.features>div.inside-f {
+    padding-top: 29px;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 25px;
+    align-items: center;
+}
+
+div.features>div.inside-f>div.header {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 12px;
+    align-items: center;
+    width: 75%;
+}
+
+div.features>div.inside-f>div.header>p:nth-of-type(1) {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+div.features>div.inside-f>div.header>p:nth-of-type(2) {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+div.features>div.inside-f>div.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 12px;
+    align-items: center;
+}
+
+div.features>div.inside-f>div.cards>div.sub-card {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 22px;
+    align-items: center;
+}
+
+div.features>div.inside-f>div.cards>div.sub-card>div {
+    width: 80%;
+    padding-right: 32px;
+    padding-left: 48px;
+    padding-top: 58px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 12px;
+    background: #FFF;
+}
+
+div.features>div.inside-f>div.cards>div.sub-card>div>svg {
+    width: 32px;
+    height: 27.921px;
+    flex-shrink: 0;
+}
+
+div.features>div.inside-f>div.cards>div.sub-card>div>p:nth-of-type(1) {
+    color: var(--Dark-blue, #282938);
+
+    /* Heading 6 */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 150% */
+}
+
+div.features>div.inside-f>div.cards>div.sub-card>div>p:nth-of-type(2) {
+    color: var(--Dark-blue, #282938);
+
+    /* Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    opacity: 0.7;
+}

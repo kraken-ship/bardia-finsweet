@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss/main.scss -o css/ -r ",
+    "scssMinify": "node-sass -w scss/main.scss -o css/ -r --output-style compressed",
+    "setting": "node-sass -w scss/setting/setting.scss -o css/setting -r --output-style compressed",
+    "2xl": "node-sass -w scss/2xl/2xl.scss -o css/2xl -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "swiper": "^11.0.3"
+  }
+}

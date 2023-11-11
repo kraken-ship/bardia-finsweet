@@ -1,0 +1,65 @@
+div.our-mission {
+    width: 100%;
+    height: auto;
+    background: var(--Accent, #EEF4FA);
+}
+
+div.our-mission>div.inside-mission {
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 96px;
+}
+
+div.our-mission>div.inside-mission>div.vision {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 20px;
+    width: 100%;
+}
+
+div.our-mission>div.inside-mission>div.vision>div.content {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 60%;
+}
+
+div.our-mission>div.inside-mission>div.vision>div.content>p:nth-of-type(1) {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 175% */
+}
+
+div.our-mission>div.inside-mission>div.vision>div.content>p:nth-of-type(2) {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+div.our-mission>div.inside-mission>div.vision>div.content>p:nth-of-type(3) {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    opacity: 0.7;
+}
+
+div.our-mission>div.inside-mission>div.vision>img {
+    width: 40%;
+    height: 40%;
+}

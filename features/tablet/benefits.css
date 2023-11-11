@@ -1,0 +1,137 @@
+div.benefits {
+    width: 100%;
+    height: auto;
+}
+
+div.benefits>div.inside-benefits {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 15px;
+    align-items: center;
+}
+
+div.benefits>div.inside-benefits>p {
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    width: 73%;
+    padding-top: 50px;
+}
+
+div.benefits>div.inside-benefits>div.cards {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 20px;
+}
+
+div.benefits>div.inside-benefits>div.cards>div.card {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20.61px;
+    background: var(--Grey, #F4F6FC);
+}
+
+div.benefits>div.inside-benefits>div.cards>div.card>svg {
+    width: 32.001px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+div.benefits>div.inside-benefits>div.cards>div.card>p:nth-of-type(1) {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+div.benefits>div.inside-benefits>div.cards>div.card>p:nth-of-type(2) {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    opacity: 0.7;
+    text-align: left;
+    margin-top: -22px;
+}
+
+div.benefits>div.inside-benefits>div.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 48px;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(1) {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(1)>p:nth-of-type(1) {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(1)>p:nth-of-type(2) {
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(2) {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(2)>svg:nth-of-type(1) {
+    width: 20%;
+    height: 30%;
+    flex-shrink: 0;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(2)>svg:nth-of-type(2) {
+    width: 20%;
+    height: 30%;
+    flex-shrink: 0;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(2)>svg:nth-of-type(3) {
+    width: 20%;
+    height: 30%;
+    flex-shrink: 0;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(2)>svg:nth-of-type(4) {
+    width: 20%;
+    height: 30%;
+    flex-shrink: 0;
+}
+
+div.benefits>div.inside-benefits>div.logo>div:nth-of-type(2)>svg:nth-of-type(5) {
+    width: 20%;
+    height: 30%;
+    flex-shrink: 0;
+}

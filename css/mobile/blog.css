@@ -1,0 +1,115 @@
+div.blog {
+    width: 100%;
+    height: auto;
+}
+
+div.blog>div.inside-blog {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 64px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+div.blog>div.inside-blog>p {
+
+    color: var(--Dark-blue, #282938);
+
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    /* 133.333% */
+    text-align: center;
+}
+
+div.blog>div.inside-blog>div.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 32px;
+}
+
+div.blog>div.inside-blog>div.cards>div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 16px;
+}
+
+div.blog>div.inside-blog>div.cards>div>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+div.blog>div.inside-blog>div.cards>div>p:nth-of-type(1) {
+
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 175% */
+    opacity: 0.7;
+    text-align: center;
+}
+
+div.blog>div.inside-blog>div.cards>div>p:nth-of-type(2) {
+    color: var(--Dark-blue, #282938);
+
+    /* Heading 6 */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 150% */
+    text-align: center;
+}
+
+div.blog>div.inside-blog>div.cards>div>p:nth-of-type(3) {
+
+    color: var(--Dark-blue, #282938);
+
+    /* Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    opacity: 0.7;
+    text-align: center;
+}
+
+div.blog>div.inside-blog>div.cards>div>a {
+
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 10px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+div.blog>div.inside-blog>div.cards>div>a>svg {
+    width: 24px;
+    height: 30px;
+    flex-shrink: 0;
+    fill: var(--Royal-Blue, #2405F2);
+    stroke-width: 1.5px;
+    stroke: var(--Dark-blue, #282938);
+}
